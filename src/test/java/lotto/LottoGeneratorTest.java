@@ -8,11 +8,11 @@ public class LottoGeneratorTest {
 
     @Test
     void generate_난수가_6개인_Lotto를_생성한다() {
-        LottoGenerator generator = LottoGenerator();
+        LottoGenerator generator = new LottoGenerator();
         Lotto lotto1 = generator.generate();
         Lotto lotto2 = generator.generate();
 
-        assertThat(lotto1.print()).isNotEqualTo(lotto2);
+        assertThat(lotto1.print()).isNotEqualTo(lotto2.print());
     }
 
 }
