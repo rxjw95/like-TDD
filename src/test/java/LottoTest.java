@@ -1,5 +1,4 @@
-package lotto;
-
+import lotto.Lotto;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
