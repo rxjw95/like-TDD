@@ -12,6 +12,9 @@ public class Lotto {
     }
 
     public String print() {
-        return numbers.stream().map(Objects::toString).collect(Collectors.joining(" "));
+        return numbers.stream()
+                .sorted()
+                .map(Objects::toString)
+                .collect(Collectors.joining(" "));
     }
 }
