@@ -14,5 +14,4 @@ public class LottoIssuerTest {
         assertThat(size).isEqualTo(4);
     }
 
-
 }
